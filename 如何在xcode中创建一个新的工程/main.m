@@ -10,8 +10,11 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSString *str1 = @"iMooc";
+        NSString *str2 = @"WWW.IMOOC.COM";
+        NSLog(@"str1是%@",str1.capitalizedString);
+        NSLog(@"str2是%@",str2.lowercaseString);
+        
     }
     return 0;
 }
